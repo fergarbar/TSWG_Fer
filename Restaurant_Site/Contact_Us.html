@@ -1,0 +1,121 @@
+<!DOCTYPE hmtl>
+
+<!--
+Name: Fernando Garcia
+Date Created:02/22/21
+Most Recent revision: 02/22/21
+-->
+
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title> Contact Us </title>
+         <link href="Styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        
+        
+        <style>
+        
+        
+        
+        
+        </style>
+        
+    </head>
+        
+    <body style="background-color: burlywood">
+      
+        <header style="background: Red" class="jumbotron" >
+             <h1 class="text-align: Center">  "Machu Picchu Peruvian Restobar"  </h1>
+             <h2 class="text-right mt-5"> <em>Second Store Coming Soon!</em> </h2>
+                    
+        </header>    
+        
+                  
+            <nav >
+                <hr />
+                    <!-- We need to add links to Home.html, Menu.html, and Contact_Us.html -->
+                <a class="btn badge-pill" href="Home.html"> Home </a>
+                <a class="btn badge-pill" href="Menu.html"> Menu </a>
+                <a class="btn badge-pill" href="Contact_Us.html"> Contact Us </a>
+                
+                 <div class="clear-float"> </div>
+            </nav>
+          <div class="container">
+            <form action="submit.html" method="post">
+        
+                <label for="Name"><strong> Name: </strong> </label>
+                <input type="text" id="Name" name="Name"> <br />
+                
+                <div class="right-content">
+
+                <label for="Email"> <strong> Email: </strong></label> 
+                <input type="text" id="Email" name="Email"> <br />
+
+                <label for="Phone"> <strong> Phone: </strong> </label> 
+                <input type="Phone" id="Phone" name="Phone"> <br />
+            
+                <label for="Reason_Inquiry"> <strong> Reason for Inquiry: </strong> </label> 
+                    
+                <select id="Reason_Inquiry" name="Reason_Inquiry"> 
+
+                <option value="default" selected>Catering</option>
+                <option value="PrivateParty">Private Party</option>
+                <option value="Feedback">Feedback </option>
+                <option value="Other">Other</option>
+
+                </select>
+                
+              <article>
+                <label for="Info"><strong> Additional Information: </strong> </label> 
+                <textarea id="Info" name="Info"></textarea> 
+              </article>
+                
+            <fieldset>
+                
+                <legend> <strong> Have you been to the restaurant? </strong> </legend> <br />
+                <input type="radio" id="choice1" name="question" value="no">
+                <label for="choice1">No</label> 
+                <input type="radio" id="choice2" name="question" value="yes">
+                <label for="choice2">Yes</label> 
+                            
+            </fieldset>
+                
+            <fieldset>
+                <legend> <strong> Best days to contact you: </strong> </legend> <br />
+
+                <input type="checkbox" id="M1" name="interest" value="M1">
+                <label for="M1">M</label> 
+
+                <input type="checkbox" id="T1" name="interest" value="T1">
+                <label for="T1">T</label> 
+
+                <input type="checkbox" id="W1" name="interest" value="W1">
+                <label for="W1">W</label> 
+                
+                <input type="checkbox" id="Th1" name="interest" value="Th1">
+                <label for="Th1">Th </label> 
+                
+                <input type="checkbox" id="F1" name="interest" value="F1">
+                <label for="F1">F </label> 
+
+            </fieldset>    
+                
+                <input type="submit" name="submit" value="Send Request">
+                </div> 
+            </form>     
+          <footer>
+                <hr />
+              <p> 3723 Echo Valley Circle, La Grange, KY, 40031 </p>
+               <p> 5027584806 </p>
+          </footer>
+            
+       <script src="js/jquery-3.3.1.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script> 
+      </div>  
+    </body>
+</html> 
