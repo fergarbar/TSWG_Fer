@@ -1,0 +1,21 @@
+Fernando Garcia Barranca
+Monday, March 8, 2021
+
+2.a- Sir Berners-Lee is most well-known for 'TimBL' or 'TBL'
+
+2.b- TimBL is a Professorial Fellow of Computer Science at the University of Oxford and a professor at the Massachusetts Institute of Technology (MIT)
+
+2.c- https://www.w3.org/People/Berners-Lee/#Address // https://en.wikipedia.org/wiki/Tim_Berners-Lee // https://www.ox.ac.uk/news/2016-10-27-sir-tim-berners-lee-joins-oxfords-department-computer-science
+
+-----------------------------------------------
+3.a- Object Oriented means to create objects(set of functions and procedures) which could work together in order to get a result in terms of the programming.
+
+3.b- JavaScript, Python, C++.
+
+3.c- Abstraction, Encapsulation, Inheritance and Polymorphism.
+
+3.d- https://en.wikipedia.org/wiki/Object-oriented_programming // https://www.codecademy.com/articles/cpp-object-oriented-programming // https://www.freecodecamp.org/news/four-pillars-of-object-oriented-programming/
+
+-----------------------------------------------
+
+4.- To understand the theorical basic concepts of this course and focus these in the project.
